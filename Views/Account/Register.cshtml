@@ -1,0 +1,30 @@
+﻿@model Shopping.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<article id="login">
+    <h1>New Customer</h1>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary()
+        <p>
+            @Html.LabelFor(m => m.UserName)
+            @Html.TextBoxFor(m => m.UserName)
+        </p>
+        <p>
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password)
+        </p>
+        <p>
+            @Html.LabelFor(m => m.ConfirmPassword)
+            @Html.PasswordFor(m => m.ConfirmPassword)
+        </p>
+        <button onclick="form.submit()">Register</button> 
+    }
+</article>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

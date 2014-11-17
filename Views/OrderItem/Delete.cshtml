@@ -1,0 +1,53 @@
+﻿@model Shopping.Models.OrderItem
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>OrderItem</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Order.OrderStatus)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Order.OrderStatus)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Inventory.InventoryId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Inventory.InventoryId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ItemQuantity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ItemQuantity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ItemUnitPrice)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ItemUnitPrice)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ItemSubtotal)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ItemSubtotal)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

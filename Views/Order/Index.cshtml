@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Shopping.Models.Order>
+
+@{
+    ViewBag.Title = "View Orders";
+}
+
+<article id="basket">
+    @Html.ActionLink("My Account", "MyAccount", "Account", null, new { @class="continue"})
+    <h1>Orders</h1>
+    <table>
+        <tr class="orderh">
+            <th>Order#</th>
+            <th>Total</th>
+            <th>Order Status</th>
+            <th>Payment Status</th>
+            <th>Shipped Date</th>
+            <th>Created</th>
+            <th>View</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr class="order">
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderId)
+                </td>
+                <td>
+                    $@Html.DisplayFor(modelItem => item.OrderTotal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderPaymentStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderShippedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderCreated)
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "Index", "OrderItem", new { id = item.OrderId }, new {@class="table-icon image"})
+                </td>
+            </tr>
+        }
+    </table>
+</article>

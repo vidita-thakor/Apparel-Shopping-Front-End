@@ -1,0 +1,105 @@
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\Shopping.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\Shopping.pdb
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Net.Http.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Net.Http.Formatting.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Net.Http.WebRequest.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Helpers.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Http.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Http.WebHost.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Mvc.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Razor.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.WebPages.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.WebPages.Razor.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\WebMatrix.Data.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\WebMatrix.WebData.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Net.Http.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Net.Http.Formatting.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Net.Http.WebRequest.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Helpers.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Http.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Http.WebHost.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Mvc.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.Razor.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.WebPages.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\System.Web.WebPages.Razor.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\WebMatrix.Data.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\bin\WebMatrix.WebData.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\obj\Debug\Shopping.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\obj\Debug\Shopping.pdb
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\Shopping\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\Shopping.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\Shopping.pdb
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\Microsoft.Web.Infrastructure.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Net.Http.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Net.Http.Formatting.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Net.Http.WebRequest.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Helpers.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Http.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Http.WebHost.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Mvc.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Razor.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.WebPages.Deployment.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.WebPages.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.WebPages.Razor.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\WebMatrix.Data.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\WebMatrix.WebData.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\Microsoft.Web.Infrastructure.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Net.Http.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Net.Http.Formatting.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Net.Http.WebRequest.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Helpers.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Http.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Http.WebHost.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Mvc.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.Razor.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.WebPages.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.WebPages.Deployment.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\System.Web.WebPages.Razor.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\WebMatrix.Data.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\bin\WebMatrix.WebData.xml
+C:\wdd_projects\apparel_shopping\apparel-shopping\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+C:\wdd_projects\apparel_shopping\apparel-shopping\obj\Debug\Shopping.dll
+C:\wdd_projects\apparel_shopping\apparel-shopping\obj\Debug\Shopping.pdb
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\Shopping.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\Shopping.pdb
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Net.Http.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Net.Http.Formatting.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Net.Http.WebRequest.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Helpers.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Http.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Http.WebHost.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Mvc.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Razor.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.WebPages.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.WebPages.Razor.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\WebMatrix.Data.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\WebMatrix.WebData.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Net.Http.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Net.Http.Formatting.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Net.Http.WebRequest.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Helpers.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Http.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Http.WebHost.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Mvc.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.Razor.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.WebPages.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\System.Web.WebPages.Razor.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\WebMatrix.Data.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\bin\WebMatrix.WebData.xml
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\obj\Debug\Shopping.csprojResolveAssemblyReference.cache
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\obj\Debug\Shopping.dll
+C:\Users\Abhishek\Documents\Visual Studio 2012\Projects\ApparelShopping\obj\Debug\Shopping.pdb

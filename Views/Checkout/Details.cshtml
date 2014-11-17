@@ -1,0 +1,134 @@
+﻿@model Shopping.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Customer</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserProfile.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserProfile.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerFirstName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerFirstName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerLastName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerLastName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerEmail)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerEmail)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerPhone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerPhone)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerHomePhone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerHomePhone)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerAddress)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerAddress)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerCity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerCity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerState)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerState)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerZip)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerZip)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerCountry)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerCountry)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ShippingAddress)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ShippingAddress)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ShippingCity)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ShippingCity)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ShippingState)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ShippingState)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ShippingZip)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ShippingZip)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ShippingCountry)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ShippingCountry)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustomerCreated)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustomerCreated)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.CustomerId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

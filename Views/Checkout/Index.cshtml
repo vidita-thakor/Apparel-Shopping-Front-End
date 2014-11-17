@@ -1,0 +1,129 @@
+﻿@model IEnumerable<Shopping.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserProfile.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerHomePhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerCity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerState)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerZip)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerCountry)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShippingAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShippingCity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShippingState)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShippingZip)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShippingCountry)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerCreated)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserProfile.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerLastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerHomePhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerCity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerState)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerZip)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerCountry)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShippingAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShippingCity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShippingState)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShippingZip)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShippingCountry)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomerCreated)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CustomerId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CustomerId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CustomerId })
+        </td>
+    </tr>
+}
+
+</table>

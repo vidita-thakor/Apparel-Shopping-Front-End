@@ -1,0 +1,161 @@
+﻿@{
+    ViewBag.Title = "ViewProduct";
+}
+
+<article id="grid">
+	<div id="breadcrumb"><a href="index.html">Home</a> > <a href="search.html">Dresses</a> > <h1>Summer Dress</h1></div>
+    <header>
+        <div class="paging">
+            Page: <a onclick="javascript:return getPage(1);" href="">1</a>&nbsp; | &nbsp;2&nbsp; | &nbsp;<a onclick="javascript:return getPage(3);" href="">3</a>  |  <a onclick="javascript:return getPage('', '', '1');" href="">View All</a>
+        </div>
+        <form action="#" >
+        <select onchange="javascript:addSort();" name="sortBy" id="sortBy">
+            <option value="">Default</option>
+            <option value="PriceHiLo">Price (High to Low)</option>
+            <option value="PriceLoHi">Price (Low to High)</option>
+            <option value="pID">Most Recent</option>
+        </select> &nbsp; Showing 26 - 50 of 78 Product(s)
+        </form>
+    </header>
+    <ul id="items">
+        <li>
+            <a href="@Url.Action("ViewProductDetail", "Product")"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            @Html.ActionLink("Elegant evening Dress", "ViewProductDetail", "Product")
+            <strong>&pound;499</strong>
+      </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Longer title Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong><em>previously &pound;649</em>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Longer title Elegant evening Dress</a>
+            <strong><em>previously &pound;649</em>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong><em>previously &pound;649</em>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong><em>previously &pound;649</em>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Longer title Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong><em>previously &pound;649</em>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Longer title Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong><em>previously &pound;649</em>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong><em>previously &pound;649</em>&pound;499</strong>
+            <span class="sale">Sale</span>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+        <li>
+            <a href="main.html"><img src="../Images/thumb.png" alt="Elegant evening Dress"/></a>
+            <a href="main.html" class="title">Elegant evening Dress</a>
+            <strong>&pound;499</strong>
+        </li>
+    </ul>
+    <footer>
+        <div class="paging">
+            Page: <a onclick="javascript:return getPage(1);" href="">1</a>&nbsp; | &nbsp;2&nbsp; | &nbsp;<a onclick="javascript:return getPage(3);" href="">3</a>  |  <a onclick="javascript:return getPage('', '', '1');" href="">View All</a>
+        </div>
+    </footer>
+</article>
+

@@ -1,0 +1,8 @@
+﻿@model Shopping.Models.Page
+
+@{
+    ViewBag.Title = "Size Guide";
+}
+<article id="login">
+    @Html.Raw(System.Web.HttpUtility.HtmlDecode(Model.PageDescription))
+</article>

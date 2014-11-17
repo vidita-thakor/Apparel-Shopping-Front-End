@@ -1,0 +1,92 @@
+﻿@model Shopping.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Order</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Customer.CustomerFirstName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Customer.CustomerFirstName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderSubtotal)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderSubtotal)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderShippingCharges)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderShippingCharges)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderTaxes)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderTaxes)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderTotal)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderTotal)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderStatus)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderStatus)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderTransactionId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderTransactionId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderPaymentStatus)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderPaymentStatus)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderShippedDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderShippedDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.OrderCreated)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.OrderCreated)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.OrderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

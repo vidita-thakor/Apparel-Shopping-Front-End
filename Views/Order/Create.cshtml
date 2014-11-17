@@ -1,0 +1,115 @@
+﻿@model Shopping.Models.Order
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Order</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CustomerId, "Customer")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("CustomerId", String.Empty)
+            @Html.ValidationMessageFor(model => model.CustomerId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderDate)
+            @Html.ValidationMessageFor(model => model.OrderDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderSubtotal)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderSubtotal)
+            @Html.ValidationMessageFor(model => model.OrderSubtotal)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderShippingCharges)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderShippingCharges)
+            @Html.ValidationMessageFor(model => model.OrderShippingCharges)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderTaxes)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderTaxes)
+            @Html.ValidationMessageFor(model => model.OrderTaxes)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderTotal)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderTotal)
+            @Html.ValidationMessageFor(model => model.OrderTotal)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderStatus)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderStatus)
+            @Html.ValidationMessageFor(model => model.OrderStatus)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderTransactionId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderTransactionId)
+            @Html.ValidationMessageFor(model => model.OrderTransactionId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderPaymentStatus)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderPaymentStatus)
+            @Html.ValidationMessageFor(model => model.OrderPaymentStatus)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderShippedDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderShippedDate)
+            @Html.ValidationMessageFor(model => model.OrderShippedDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OrderCreated)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OrderCreated)
+            @Html.ValidationMessageFor(model => model.OrderCreated)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

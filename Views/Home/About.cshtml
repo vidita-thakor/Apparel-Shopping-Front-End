@@ -1,0 +1,9 @@
+﻿@model Shopping.Models.Page
+
+@{
+    ViewBag.Title = "About";
+}
+
+<article id="login">
+    @Html.Raw(System.Web.HttpUtility.HtmlDecode(Model.PageDescription))
+</article>

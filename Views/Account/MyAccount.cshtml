@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "MyAccount";
+}
+
+<article id="login">
+    <h1>My Account</h1>
+    @using (Html.BeginForm())
+    {
+        <ul>
+            <li>
+                @Html.ActionLink("Change Password", "Manage", "Account")
+            </li>
+            <li>
+                @Html.ActionLink("View Orders", "Index", "Order")
+            </li>
+
+        </ul>
+    }
+    </article>

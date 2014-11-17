@@ -1,0 +1,41 @@
+﻿@model Shopping.Models.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+<article id="login">
+    <h1>Existing customers</h1>
+    @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary()
+        <p>
+            @Html.LabelFor(m => m.UserName)
+            @Html.TextBoxFor(m => m.UserName)
+            <br />
+            @Html.ValidationMessageFor(m => m.UserName)
+        </p>
+        <p>
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password)
+            <br />
+            @Html.ValidationMessageFor(m => m.Password)
+        </p>
+        <p>
+            @Html.CheckBoxFor(m => m.RememberMe)
+            @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })
+        </p>
+        <button onclick="form.submit()">Sign in</button> 
+    }
+    <section>
+        <h2>New&nbsp;to&nbsp;Apparel&nbsp;Shopping&nbsp;?</h2>
+        <p class="continue">@Html.ActionLink("Continue", "Register", "Account")
+        </p>
+    </section>
+</article>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

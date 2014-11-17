@@ -1,0 +1,39 @@
+﻿@model Shopping.Models.LoginModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+<article id="login">
+
+    <h1>Existing customers</h1>
+    @using (Html.BeginForm("Login","Account",new { ReturnUrl = ViewBag.ReturnUrl }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <p>
+            <label for="username">User name</label>
+            @Html.TextBoxFor(m => m.UserName)
+            @Html.ValidationMessageFor(m => m.UserName)
+        </p>
+        <p>
+            <label for="pasword">Password</label>
+            @Html.PasswordFor(m => m.Password)
+            @Html.ValidationMessageFor(m => m.Password)
+        </p>
+        <p>
+            @Html.CheckBoxFor(m => m.RememberMe)
+            @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })
+        </p>
+        <p>
+            <button>Sign in</button>
+            <input type="submit" value="Log in" />
+            <a href="#">Forgotten password?</a>
+        </p>
+    }
+    <section>
+        <h2>New&nbsp;to&nbsp;Apparel&nbsp;Shopping&nbsp;?</h2>
+        <p class="continue">@Html.ActionLink("Continue", "Register", "Account")
+        </p>
+    </section>
+</article>
+

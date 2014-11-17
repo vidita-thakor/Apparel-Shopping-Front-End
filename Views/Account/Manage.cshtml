@@ -1,0 +1,18 @@
+﻿@model Shopping.Models.LocalPasswordModel
+@{
+    ViewBag.Title = "Change Password";
+}
+
+<article id="login">
+    <h1>Change Password</h1>
+    
+    
+    @if (ViewBag.HasLocalPassword)
+    {
+        @Html.Partial("_ChangePasswordPartial")
+    }
+</article>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
